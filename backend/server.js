@@ -9,7 +9,7 @@ const app = express();
 
 // ── Middleware ────────────────────────────────────────────
 app.use(helmet({ contentSecurityPolicy: false }));
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: "https://ship-fast-pymrjpl0m-purvisindhani17-6957s-projects.vercel.app" || 'http://localhost:5173', credentials: true }));
 app.use(express.json());
 
 // Rate limiter — high enough for dev use, returns JSON so frontend can parse it
