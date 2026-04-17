@@ -1,4 +1,4 @@
-# 📦 ShipFast — Smart Courier Rate Aggregator
+#  ShipFast — Smart Courier Rate Aggregator
 
 > Instantly compare shipping rates across 8 major Indian couriers. Save 30–60 minutes daily and reduce shipping costs by 15–30%.
 
@@ -11,7 +11,7 @@ shipfast/
 ├── backend/                    # Node.js + Express API
 │   ├── server.js               # App entry point
 │   ├── controllers/
-│   │   └── rateEngine.js       # 🧠 Core pricing engine
+│   │   └── rateEngine.js       # Core pricing engine
 │   ├── models/
 │   │   ├── Courier.js          # Mongoose courier schema
 │   │   ├── Shipment.js         # Shipment tracking schema
