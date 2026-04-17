@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Zap, Truck, Eye, EyeOff, ArrowRight, AlertCircle, Check } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/AppContext';
-
+const API_URL = import.meta.env.VITE_API_URL;
 const COURIER_COLORS = ['#D3232A','#003087','#FF6B00','#F7A800','#FF4500','#6C00FF','#009A44','#4D148C','#4361ee','#0ea5e9'];
 
 // ── tiny shared inputs ────────────────────────────────────
