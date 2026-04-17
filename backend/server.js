@@ -12,7 +12,9 @@ app.use(helmet({ contentSecurityPolicy: false }));
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://ship-fast-gamma.vercel.app"
+    "https://ship-fast-gamma.vercel.app",
+    "https://shipfast-nine.vercel.app"
+
   ],
   credentials: true
 }));
